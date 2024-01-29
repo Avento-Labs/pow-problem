@@ -1,9 +1,9 @@
 # Avento Blockchain Validation
 
 ## Problem Statement:
-Welcome to the world of AventoBlockchain, a new-age digital ledger system. Your task is to implement a simplified version of a Proof of Work (PoW) algorithm, crucial for maintaining the integrity of the AventoBlockchain. The AventoBlockchain employs a unique validation mechanism for adding new blocks, known as the "Avento Hash Challenge" (EHC).
+Welcome to the world of AventoBlockchain, a new-age digital ledger system. Your task is to implement a simplified version of a Proof of Work (PoW) algorithm, crucial for maintaining the integrity of the AventoBlockchain. The AventoBlockchain employs a unique validation mechanism for adding new blocks, known as the "Avento Hash Challenge" (AHC).
 
-In the EHC, each block contains a string "S", an integer "N", and a mystery number "X". To successfully mine (add) a block to the AventoBlockchain, you must find the smallest positive integer X such that when X is appended to S and hashed using a special AventoHash function, the resulting hash string begins with exactly N leading zeroes.
+In the AHC, each block contains a string "S", an integer "N", and a mystery number "X". To successfully mine (add) a block to the AventoBlockchain, you must find the smallest positive integer X such that when X is appended to S and hashed using a special AventoHash function, the resulting hash string begins with exactly N leading zeroes.
 
 **Input Format:**
 * The JSON file called "input.json" contains an array of JSON objects, each representing a test case. Each test case is a JSON object with two keys, "S" and "N", corresponding to the string S and integer N, respectively. 
