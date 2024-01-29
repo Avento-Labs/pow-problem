@@ -36,7 +36,7 @@ async function computeValidHash(S, N) {
 async function main() {
   for (let i = 0; i < inputArr.length; i++) {
     const transaction = inputArr[i];
-    const hash = await computeX(transaction.S, transaction.N);
+    const hash = await computeValidHash(transaction.S, transaction.N);
     if (hashes[i] === hash) {
       console.log(`Transaction ${i + 1} is valid`);
     } else {
