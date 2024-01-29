@@ -1,7 +1,7 @@
-# Enigmatic Blockchain Validation
+# Avento Blockchain Validation
 
 ## Problem Statement:
-Welcome to the world of AventoBlockchain, a new-age digital ledger system. Your task is to implement a simplified version of a Proof of Work (PoW) algorithm, crucial for maintaining the integrity of the AventoBlockchain. The AventoBlockchain employs a unique validation mechanism for adding new blocks, known as the "Enigmatic Hash Challenge" (EHC).
+Welcome to the world of AventoBlockchain, a new-age digital ledger system. Your task is to implement a simplified version of a Proof of Work (PoW) algorithm, crucial for maintaining the integrity of the AventoBlockchain. The AventoBlockchain employs a unique validation mechanism for adding new blocks, known as the "Avento Hash Challenge" (EHC).
 
 In the EHC, each block contains a string "S", an integer "N", and a mystery number "X". To successfully mine (add) a block to the AventoBlockchain, you must find the smallest positive integer X such that when X is appended to S and hashed using a special AventoHash function, the resulting hash string begins with exactly N leading zeroes.
 
@@ -13,7 +13,7 @@ In the EHC, each block contains a string "S", an integer "N", and a mystery numb
 * 0 ≤ N ≤ 5
 
 ## Output Format:
-For each test case, output a single line containing the smallest positive integer X that solves the Enigmatic Hash Challenge for the given S and N.
+For each test case, output a single line containing the smallest positive integer X that solves the Avento Hash Challenge for the given S and N.
 
 **Sample Input:**
 ```
